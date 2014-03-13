@@ -3,17 +3,20 @@
 > Create a gruntfile module with [Yeoman](http://yeoman.io), including nodeunit unit tests.
 
 This generator is based of
-[grunt-init-gruntfile](https://github.com/gruntjs/grunt-init-gruntfile), authored by the
-magnificient GruntJS team.
+[generator-gruntfile](https://github.com/yeoman/generator-gruntfile), authored by the Yeoman team.
 
-Maintained by [Addy Osmani](https://github.com/addyosmani).
+Maintained by [Jonathan Fielding](https://github.com/jonathan-fielding).
 
-[Yeoman]: http://yeoman.io/
+## Dependencies
+
+The tools you will need installed for this to work
+
+* [Yeoman](http://yeoman.io/)
 
 
 ## Installation
 
-Install this generator by running: `npm install -g generator-gruntfile`.
+Install this generator by running: `npm install -g generator-custom-gruntfile`.
 
 
 ## Usage
@@ -21,7 +24,7 @@ Install this generator by running: `npm install -g generator-gruntfile`.
 At the command-line, cd into an empty directory, run this command and follow the prompts.
 
 ```
-yo gruntfile
+yo custom-gruntfile
 ```
 
 _Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files._
