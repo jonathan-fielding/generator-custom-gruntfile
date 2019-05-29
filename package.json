@@ -30,7 +30,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "yeoman-generator": "~0.16.0",
+    "yeoman-generator": "~0.24.1",
     "grunt": "~0.4.1"
   },
   "devDependencies": {
