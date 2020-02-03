@@ -27,11 +27,14 @@
     "url": "https://github.com/yeoman/generator-gruntfile.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "yeoman-generator": "~0.16.0",
-    "grunt": "~0.4.1"
+    "yeoman-generator": "~0.21.0",
+    "grunt": "~1.0.0",
+    "snyk": "^1.290.1"
   },
   "devDependencies": {
     "mocha": "*"
@@ -47,5 +50,6 @@
     {
       "type": "MIT"
     }
-  ]
+  ],
+  "snyk": true
 }
